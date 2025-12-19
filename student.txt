@@ -1,0 +1,102 @@
+Welcome to GradeBook Analyzer
+
+Menu:
+  1) Manual entry of student marks
+  2) Load marks from CSV file
+  3) Exit
+Choose an option (1/2/3): 1
+
+Enter student details. Leave name blank and press Enter to finish.
+Student name: Anshuman
+Mark for Anshuman: 85
+Student name: Anurag
+Mark for Anurag: 89
+Student name: Abhay
+Mark for Abhay: 60
+Student name: Ganesh
+Mark for Ganesh: 90
+Student name: Sagar
+Mark for Sagar: 95
+Student name: 
+
+ANALYSIS SUMMARY
+Total students: 5
+Average (mean): 83.80
+Median: 89.00
+Highest score: 95.0 (Sagar)
+Lowest score: 60.0 (Abhay)
+
+Grade distribution:
+  A: 2
+  B: 2
+  C: 0
+  D: 1
+  F: 0
+
+Passed students (5): Anshuman, Anurag, Abhay, Ganesh, Sagar
+Failed students (0): None
+
+Name     Marks   Grade
+------------------------
+Anshuman  85.0    B
+Anurag    89.0    B
+Abhay     60.0    D
+Ganesh    90.0    A
+Sagar     95.0    A
+
+Export results to CSV? (y/N): y
+Enter output filename [grades_output.csv]: grades_output.csv
+Grades exported to grades_output.csv
+Analysis complete.
+
+
+Menu:
+  1) Manual entry of student marks
+  2) Load marks from CSV file
+  3) Exit
+Choose an option (1/2/3): 2
+Enter CSV file path (name,marks): Anshuman , 85
+CSV file not found: Anshuman , 85
+
+Menu:
+  1) Manual entry of student marks
+  2) Load marks from CSV file
+  3) Exit
+Choose an option (1/2/3): 2
+Enter CSV file path (name,marks): grades_output.csv
+
+ANALYSIS SUMMARY
+Total students: 5
+Average (mean): 83.80
+Median: 89.00
+Highest score: 95.0 (Sagar)
+Lowest score: 60.0 (Abhay)
+
+Grade distribution:
+  A: 2
+  B: 2
+  C: 0
+  D: 1
+  F: 0
+
+Passed students (5): Anshuman, Anurag, Abhay, Ganesh, Sagar
+Failed students (0): None
+
+Name     Marks   Grade
+------------------------
+Anshuman  85.0    B
+Anurag    89.0    B
+Abhay     60.0    D
+Ganesh    90.0    A
+Sagar     95.0    A
+
+Export results to CSV? (y/N): y
+Enter output filename [grades_output.csv]: student.csv
+Grades exported to student.csv
+Analysis complete.
+
+
+Menu:
+  3) Exit
+Choose an option (1/2/3): 3
+Exiting GradeBook Analyzer. Goodbye!
